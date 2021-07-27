@@ -26,9 +26,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col h-full justify-center max-w-4xl mx-auto px-6">
+          <div className="flex flex-col h-full justify-center max-w-5xl mx-auto px-6">
             <h1 className="font-light font-sans lg:text-7xl md:mt-0 mt-32 tracking-wide text-5xl uppercase">
-              Jian Min Massages
+              Jian Min Massage
             </h1>
             <p className="leading-relaxed max-w-lg mb-12 mt-6 mx-auto">
               We offer Chinese full deep tissue massage, foot massage and
@@ -40,7 +40,7 @@ export default function Home() {
             </button>
           </div>
           <div className="bg-gray-700 bg-opacity-20 bottom-0 md:absolute md:h-36 md:mt-0 md:py-0 mt-12 py-6 w-full">
-            <div className="h-full items-center justify-between max-w-4xl md:flex mx-auto px-6">
+            <div className="h-full items-center justify-between max-w-5xl md:flex mx-auto px-6">
               <div className="flex flex-col items-center md:my-0 my-8">
                 <div className="relative border-b border-gray-800 pb-1 mb-1 font-light font-sans inline-block text-lg tracking-wide uppercase">
                   <div className="absolute -ml-9 mt-1">
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <div className="my-16 md:my-24 max-w-4xl mx-auto px-6 text-center">
+        <div className="mt-16 md:my-24 max-w-5xl mx-auto px-6 text-center">
           <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
             Our Treatments
           </h2>
@@ -181,7 +181,7 @@ export default function Home() {
               </p>
               <span className="font-light font-sans my-3 text-sm">$30</span>
             </li>
-            <li className="flex flex-col h-80 items-center pt-10">
+            <li className="flex flex-col h-80 items-center md:pt-10">
               <svg height="36" width="36">
                 <use xlinkHref="#icon-mortar" />
               </svg>
@@ -222,7 +222,7 @@ export default function Home() {
           <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
             Location
           </h2>
-          <div className="md:flex items-center bg-white max-w-4xl md:mt-12 mt-8 mx-auto text-left">
+          <div className="md:flex items-center bg-white max-w-5xl md:mt-12 mt-8 mx-auto text-left">
             <div className="md:order-1 md:w-3/5 lg:w-3/5">
               <img src="img/map.jpg" />
             </div>
