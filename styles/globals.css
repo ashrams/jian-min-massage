@@ -58,7 +58,7 @@ body {
 }
 
 header {
-  background-image: url("/img/background.png");
+  background-image: url("/img/background.jpg");
   background-size: cover;
 }
 
@@ -66,4 +66,8 @@ header {
   header {
     background-position: 32%;
   }
+}
+
+.footer-arrow {
+  left: calc(50% - 1.25rem);
 }

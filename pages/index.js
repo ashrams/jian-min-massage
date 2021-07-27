@@ -38,7 +38,10 @@ export default function Home() {
       </Head>
       <Svg />
       <main className="overflow-hidden">
-        <header className="items-center md:h-screen relative text-center">
+        <header
+          className="items-center md:h-screen relative text-center"
+          id="top-of-page"
+        >
           <div className="absolute bg-white h-20 md:h-28 top-0 w-full">
             <div className="flex h-full gap-x-6 items-center justify-center">
               <svg height="40" width="40">
@@ -230,7 +233,12 @@ export default function Home() {
         </div>
         <div className="bg-light-green md:flex">
           <div className="md:w-1/2 lg:w-2/5 w-full">
-            <img alt="Person getting massaged" src="img/massage.jpg" />
+            <img
+              alt="Person getting massaged"
+              height="1152"
+              width="884"
+              src="img/massage.jpg"
+            />
           </div>
           <div className="flex flex-col items-center justify-center md:w-3/5">
             <h2 className="border-b border-white font-light font-sans inline-block mb-6 md:pt-0 pt-16 text-2xl tracking-wide uppercase">
@@ -267,10 +275,47 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
-            Contact Us
-          </h2>
+        <div className="max-w-5xl mx-auto md:grid md:grid-cols-3 py-20 relative">
+          <a
+            className="absolute bg-light-pink flex text-white justify-center items-center footer-arrow h-10 -top-5 w-10"
+            href="#top-of-page"
+          >
+            <svg className="fill-current" height="20" width="20">
+              <use xlinkHref="#icon-chevron-up" />
+            </svg>
+          </a>
+          <div className="flex h-full gap-x-6 justify-center">
+            <svg height="40" width="40">
+              <use xlinkHref="#icon-lotus" />
+            </svg>
+            <div className="flex flex-col font-light font-sans uppercase w-42">
+              <div className="border-b border-light-pink lg:text-xl tracking-widest">
+                <span className="pl-1">Jian Min</span>
+              </div>
+              <div className="mt-1 text-xs tracking-wider">Massage Therapy</div>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center py-10 text-center">
+            <h3 className="font-light font-sans inline-block tracking-wide uppercase">
+              Contact Info
+            </h3>
+            <span className="border-b border-light-pink flex items-center mx-auto pb-1 w-32"></span>
+            <p className="text-sm py-2">Phone: (617) 208-9288</p>
+            <a
+              className="text-sm"
+              href="mailto:jianminmassagetherapy@gmail.com"
+            >
+              jianminmassagetherapy@gmail.com
+            </a>
+          </div>
+          <div className="flex flex-col justify-center text-center">
+            <h3 className="font-light font-sans inline-block tracking-wide uppercase">
+              Hours
+            </h3>
+            <span className="border-b border-light-pink flex items-center mx-auto pb-1 w-16"></span>
+            <p className="text-sm py-2">Monday to Friday</p>
+            <p className="text-sm">9:30 am to 9:00 pm</p>
+          </div>
         </div>
       </main>
     </div>
