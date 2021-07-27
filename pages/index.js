@@ -6,6 +6,34 @@ export default function Home() {
     <div>
       <Head>
         <title>Jian Min Massage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <meta
+          name="Description"
+          content="Located in the heart of Chinatown in Boston, MA. Jian Min Massage offers Chinese full deep tissue massage, foot massage and cupping therapy to treat injuries, muscle soreness or to promote health and wellness."
+        />
+        <meta name="twitter:card" content="summary_large_image" key="twcard" />
+        <meta
+          property="og:url"
+          content="https://www.jianminmassage.com"
+          key="ogurl"
+        />
+        <meta
+          property="og:image"
+          content="https://www.jianminmassage.com/"
+          key="ogimage"
+        />
+        <meta
+          property="og:site_name"
+          content="Jian Min Massage"
+          key="ogsitename"
+        />
+        <meta property="og:title" content="Jian Min Massage" key="ogtitle" />
+        <meta
+          property="og:description"
+          content="Chinese massage therapy in Boston, MA."
+          key="ogdesc"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Svg />
@@ -35,7 +63,7 @@ export default function Home() {
               cupping therapy to treat injuries, muscle soreness or to promote
               health and wellness.
             </p>
-            <button className="bg-light-pink h-14 font-sans mx-auto text-white text-lg uppercase w-44">
+            <button className="bg-light-pink font-light h-14 font-sans mx-auto text-lg uppercase w-44">
               Contact Us
             </button>
           </div>
@@ -202,7 +230,7 @@ export default function Home() {
         </div>
         <div className="bg-light-green md:flex">
           <div className="md:w-1/2 lg:w-2/5 w-full">
-            <img src="img/massage.jpg" />
+            <img alt="Person getting massaged" src="img/massage.jpg" />
           </div>
           <div className="flex flex-col items-center justify-center md:w-3/5">
             <h2 className="border-b border-white font-light font-sans inline-block mb-6 md:pt-0 pt-16 text-2xl tracking-wide uppercase">
@@ -224,7 +252,7 @@ export default function Home() {
           </h2>
           <div className="md:flex items-center bg-white max-w-5xl md:mt-12 mt-8 mx-auto text-left">
             <div className="md:order-1 md:w-3/5 lg:w-3/5">
-              <img src="img/map.jpg" />
+              <img alt="Map of location" src="img/map.jpg" />
             </div>
             <div className="leading-relaxed md:py-0 md:w-2/5 lg:w-2/5 px-10 py-10">
               <p className="font-bold">We're located at</p>
