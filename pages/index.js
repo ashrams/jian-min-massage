@@ -3,7 +3,7 @@ import Svg from "@components/Svg";
 
 export default function Home() {
   return (
-    <div>
+    <html lang="en">
       <Head>
         <title>Jian Min Massage</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -283,6 +283,7 @@ export default function Home() {
             <svg className="fill-current" height="20" width="20">
               <use xlinkHref="#icon-chevron-up" />
             </svg>
+            <span className="hidden">Return to the top of the page</span>
           </a>
           <div className="flex h-full gap-x-6 justify-center">
             <svg height="40" width="40">
@@ -318,6 +319,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </div>
+    </html>
   );
 }
