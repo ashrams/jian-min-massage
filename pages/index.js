@@ -66,7 +66,7 @@ export default function Home() {
               cupping therapy to treat injuries, muscle soreness or to promote
               health and wellness.
             </p>
-            <button className="bg-light-pink font-light h-14 font-sans mx-auto text-lg uppercase w-44">
+            <button className="border-2 border-light-pink bg-light-pink font-light h-14 hover:bg-white focus:bg-white focus:outline-none font-sans mx-auto shadow-lg tracking-wide uppercase w-44">
               Contact Us
             </button>
           </div>
@@ -244,7 +244,7 @@ export default function Home() {
             <h2 className="border-b border-white font-light font-sans inline-block mb-6 md:pt-0 pt-16 text-2xl tracking-wide uppercase">
               About Us
             </h2>
-            <p className="leading-relaxed max-w-xl md:pb-0 mx-10 pb-16 text-sm lg:text-base text-center">
+            <p className="lg:leading-loose max-w-xl md:pb-0 mx-10 pb-16 text-sm lg:text-base text-center">
               Our experienced masseuses offer a variety of massages to promote
               health and wellness. We offer baby oil, coconut oil and Chinese
               herbal medicine oil for massage, but customers are welcome to
@@ -277,7 +277,7 @@ export default function Home() {
         </div>
         <div className="max-w-5xl mx-auto md:grid md:grid-cols-3 py-20 relative">
           <a
-            className="absolute bg-light-pink flex text-white justify-center items-center footer-arrow h-10 -top-5 w-10"
+            className="absolute bg-light-pink border-2 border-light-pink hover:bg-white hover:text-light-pink focus:bg-white focus:text-light-pink focus:outline-none flex text-white justify-center items-center footer-arrow h-10 -top-5 w-10"
             href="#top-of-page"
           >
             <svg className="fill-current" height="20" width="20">
@@ -295,20 +295,20 @@ export default function Home() {
               <div className="mt-1 text-xs tracking-wider">Massage Therapy</div>
             </div>
           </div>
-          <div className="flex flex-col justify-center py-10 text-center">
+          <div className="flex flex-col py-10 md:py-0 text-center">
             <h3 className="font-light font-sans inline-block tracking-wide uppercase">
               Contact Info
             </h3>
             <span className="border-b border-light-pink flex items-center mx-auto pb-1 w-32"></span>
             <p className="text-sm py-2">Phone: (617) 208-9288</p>
             <a
-              className="text-sm"
+              className="hover:underline focus:underline focus:outline-none text-sm"
               href="mailto:jianminmassagetherapy@gmail.com"
             >
               jianminmassagetherapy@gmail.com
             </a>
           </div>
-          <div className="flex flex-col justify-center text-center">
+          <div className="flex flex-col text-center">
             <h3 className="font-light font-sans inline-block tracking-wide uppercase">
               Hours
             </h3>
