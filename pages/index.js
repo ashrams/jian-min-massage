@@ -44,24 +44,17 @@ export default function Home() {
         >
           <div className="absolute bg-white h-20 md:h-28 top-0 w-full">
             <div className="flex h-full gap-x-6 items-center justify-center">
-              <svg height="40" width="40">
-                <use xlinkHref="#icon-lotus" />
+              <svg height="32" width="32">
+                <use xlinkHref="#icon-yin-yang" />
               </svg>
-              <div className="flex flex-col font-light font-sans justify-center uppercase w-42">
-                <div className="border-b border-light-pink lg:text-xl tracking-widest">
-                  <span className="pl-1">Jian Min</span>
-                </div>
-                <div className="mt-1 text-xs tracking-wider">
-                  Massage Therapy
-                </div>
-              </div>
+              <img height="53" width="142" src="img/logo.png" />
             </div>
           </div>
           <div className="flex flex-col h-full justify-center max-w-5xl mx-auto px-6">
             <h1 className="font-light font-sans lg:text-7xl md:mt-0 mt-32 tracking-wide text-5xl uppercase">
               Jian Min Massage
             </h1>
-            <p className="leading-relaxed max-w-lg mb-12 mt-6 mx-auto">
+            <p className="font-serif leading-relaxed max-w-lg mb-12 mt-6 mx-auto">
               We offer Chinese full deep tissue massage, foot massage and
               cupping therapy to treat injuries, muscle soreness or to promote
               health and wellness.
@@ -81,7 +74,7 @@ export default function Home() {
                   </div>
                   Opening Hours
                 </div>
-                <div className="text-sm lg:text-base">
+                <div className="font-serif text-sm lg:text-base">
                   Monday to Friday 9:30 am - 9:00 pm
                 </div>
               </div>
@@ -94,7 +87,9 @@ export default function Home() {
                   </div>
                   Get in Touch
                 </div>
-                <div className="text-sm lg:text-base">(617) 208-9288</div>
+                <div className="font-serif text-sm lg:text-base">
+                  (617) 208-9288
+                </div>
               </div>
               <div className="flex flex-col items-center md:my-0 my-8">
                 <div className="relative border-b border-gray-800 pb-1 mb-1 font-light font-sans inline-block text-lg tracking-wide uppercase">
@@ -105,7 +100,7 @@ export default function Home() {
                   </div>
                   Address
                 </div>
-                <div className="text-sm lg:text-base">
+                <div className="font-serif text-sm lg:text-base">
                   12A Tyler Street, Boston, MA 02111
                 </div>
               </div>
@@ -116,7 +111,7 @@ export default function Home() {
           <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
             Our Treatments
           </h2>
-          <p className="italic leading-relaxed max-w-md mb-12 md:mb-20 mx-auto mt-8 text-sm">
+          <p className="font-serif italic leading-relaxed max-w-md mb-12 md:mb-20 mx-auto mt-8 text-sm">
             See below for details on some of our most popular services. Please
             note, we only take{" "}
             <span className="font-semibold">payment in cash</span>.
@@ -130,7 +125,7 @@ export default function Home() {
                 Deep Tissue Massage
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
-              <p className="mb-3 px-8 text-sm">
+              <p className="font-serif mb-3 px-8 text-sm">
                 For chronic pain, muscle pain, and injuries. Choice of strength
                 available (light, medium, strong).
               </p>
@@ -149,7 +144,7 @@ export default function Home() {
                 Relaxing Massage
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
-              <p className="mb-3 px-8 text-sm">
+              <p className="font-serif mb-3 px-8 text-sm">
                 Relax and rejuvinate. Releases tension and improves circulation
                 and movement range.
               </p>
@@ -168,7 +163,7 @@ export default function Home() {
                 Hot Stone Massage
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
-              <p className="mb-3 px-8 text-sm">
+              <p className="font-serif mb-3 px-8 text-sm">
                 Warm your body and relieve muscle tension, pain, stress and
                 anxiety.
               </p>
@@ -187,7 +182,7 @@ export default function Home() {
                 Foot Massage
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
-              <p className="mb-3 px-8 text-sm">
+              <p className="font-serif mb-3 px-8 text-sm">
                 Improves circulation, stimulates muscles, reduces tension and
                 eases pain.
               </p>
@@ -206,7 +201,7 @@ export default function Home() {
                 Chinese Cupping
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
-              <p className="mb-3 px-8 text-sm">
+              <p className="font-serif mb-3 px-8 text-sm">
                 Traditional treatment to remove toxins and improve blood flow,
                 metabolism, and respiratory conditions.
               </p>
@@ -220,7 +215,7 @@ export default function Home() {
                 Lymphatic Detox
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
-              <p className="mb-3 px-8 text-sm">
+              <p className="font-serif mb-3 px-8 text-sm">
                 Stimulates circulation, reduces swelling and water retention,
                 improves the immune system, energizes, promotes body and mental
                 relaxation.
@@ -244,7 +239,7 @@ export default function Home() {
             <h2 className="border-b border-white font-light font-sans inline-block mb-6 md:pt-0 pt-16 text-2xl tracking-wide uppercase">
               About Us
             </h2>
-            <p className="lg:leading-loose max-w-xl md:pb-0 mx-10 pb-16 text-sm lg:text-base text-center">
+            <p className="font-serif leading-relaxed lg:leading-loose max-w-xl md:pb-0 mx-10 pb-16 text-sm lg:text-base text-center">
               Our experienced masseuses offer a variety of massages to promote
               health and wellness. We offer baby oil, coconut oil and Chinese
               herbal medicine oil for massage, but customers are welcome to
@@ -268,7 +263,7 @@ export default function Home() {
                 12A Tyler Street
                 <br /> Boston, MA 02111
               </p>
-              <p className="italic pt-6 text-sm">
+              <p className="font-serif italic pt-6 text-sm">
                 Our location in the heart of Chinatown is convenient to transit,
                 shops, and restaurants.
               </p>
@@ -289,7 +284,7 @@ export default function Home() {
             <svg height="40" width="40">
               <use xlinkHref="#icon-lotus" />
             </svg>
-            <div className="flex flex-col font-light font-sans uppercase w-42">
+            <div className="hidden md:flex md:flex-col md:font-light md:font-sans md:uppercase md:w-42">
               <div className="border-b border-light-pink lg:text-xl tracking-widest">
                 <span className="pl-1">Jian Min</span>
               </div>
