@@ -20,7 +20,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.jianminmassage.com/"
+          content="https://www.jian-min-massage.netlify.app/social.jpg"
           key="ogimage"
         />
         <meta
