@@ -47,7 +47,12 @@ export default function Home() {
               <svg height="32" width="32">
                 <use xlinkHref="#icon-yin-yang" />
               </svg>
-              <img height="53" width="142" src="img/logo.png" />
+              <img
+                alt="Jian Min logo"
+                height="53"
+                width="142"
+                src="img/logo.png"
+              />
             </div>
           </div>
           <div className="flex flex-col h-full justify-center max-w-5xl mx-auto px-6">
@@ -255,7 +260,12 @@ export default function Home() {
           </h2>
           <div className="md:flex items-center bg-white max-w-5xl md:mt-12 mt-8 mx-auto text-left">
             <div className="md:order-1 md:w-3/5 lg:w-3/5">
-              <img alt="Map of location" src="img/map.jpg" />
+              <img
+                alt="Map of location"
+                height="325"
+                width="614"
+                src="img/map.jpg"
+              />
             </div>
             <div className="leading-relaxed md:py-0 md:w-2/5 lg:w-2/5 px-10 py-10">
               <p className="font-bold">We're located at</p>
