@@ -59,7 +59,7 @@ export default function Home() {
               cupping therapy to treat injuries, muscle soreness or to promote
               health and wellness.
             </p>
-            <button className="border-2 border-light-pink bg-light-pink font-light h-14 hover:bg-white focus:bg-white focus:outline-none font-sans mx-auto shadow-lg tracking-wide uppercase w-44">
+            <button className="bg-light-pink font-light h-14 hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none font-sans mx-auto shadow-lg tracking-wide uppercase w-44">
               Contact Us
             </button>
           </div>
