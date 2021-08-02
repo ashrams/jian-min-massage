@@ -80,7 +80,7 @@ export default function Home() {
                   Opening Hours
                 </div>
                 <div className="font-serif text-sm lg:text-base">
-                  Monday to Friday 9:30 am - 9:00 pm
+                  Open Daily 9:30 am - 9:00 pm
                 </div>
               </div>
               <div className="flex flex-col items-center md:my-0 my-8">
@@ -280,6 +280,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="max-w-5xl mx-auto md:grid md:grid-cols-3 py-20 relative">
           <a
             className="absolute bg-light-pink border-2 border-light-pink hover:bg-white hover:text-light-pink focus:bg-white focus:text-light-pink focus:outline-none flex text-white justify-center items-center footer-arrow h-10 -top-5 w-10"
@@ -290,6 +291,7 @@ export default function Home() {
             </svg>
             <span className="hidden">Return to the top of the page</span>
           </a>
+
           <div className="flex h-full gap-x-6 justify-center">
             <svg height="40" width="40">
               <use xlinkHref="#icon-lotus" />
@@ -319,7 +321,7 @@ export default function Home() {
               Hours
             </h3>
             <span className="border-b border-light-pink flex items-center mx-auto pb-1 w-16"></span>
-            <p className="text-sm py-2">Monday to Friday</p>
+            <p className="text-sm py-2">Open Daily</p>
             <p className="text-sm">9:30 am to 9:00 pm</p>
           </div>
         </div>
