@@ -64,9 +64,11 @@ export default function Home() {
               cupping therapy to treat injuries, muscle soreness or to promote
               health and wellness.
             </p>
-            <button className="bg-light-pink font-light h-14 hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none font-sans mx-auto shadow-lg tracking-wide uppercase w-44">
-              Contact Us
-            </button>
+            <a className="focus:outline-none" href="#contact">
+              <button className="hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none bg-light-pink h-14 font-sans mx-auto shadow-lg tracking-wide uppercase w-44">
+                Contact Us
+              </button>
+            </a>
           </div>
           <div className="bg-gray-700 bg-opacity-20 bottom-0 md:absolute md:h-36 md:mt-0 md:py-0 mt-12 py-6 w-full">
             <div className="h-full items-center justify-between max-w-5xl md:flex mx-auto px-6">
@@ -92,9 +94,12 @@ export default function Home() {
                   </div>
                   Get in Touch
                 </div>
-                <div className="font-serif text-sm lg:text-base">
+                <a
+                  className="focus:outline-none focus:bg-gray-200 focus:bg-opacity-40 font-serif text-sm lg:text-base"
+                  href="tel:6172089288"
+                >
                   (617) 208-9288
-                </div>
+                </a>
               </div>
               <div className="flex flex-col items-center md:my-0 my-8">
                 <div className="relative border-b border-gray-800 pb-1 mb-1 font-light font-sans inline-block text-lg tracking-wide uppercase">
@@ -146,7 +151,7 @@ export default function Home() {
                 <use xlinkHref="#icon-lotus" />
               </svg>
               <h3 className="font-light font-sans mt-3 text-xl uppercase">
-                Relaxing Massage
+                Relxation Massage
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
               <p className="font-serif mb-3 px-8 text-sm">
@@ -254,7 +259,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="bg-light-gray py-16 md:py-24 text-center">
+        <div className="bg-light-gray pb-32 pt-16 md:pb-48 md:pt-24 text-center">
           <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
             Location
           </h2>
@@ -280,10 +285,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div className="max-w-5xl mx-auto md:grid md:grid-cols-3 py-20 relative">
+        <div className="bg-light-green px-6 py-20 relative">
           <a
-            className="absolute bg-light-pink border-2 border-light-pink hover:bg-white hover:text-light-pink focus:bg-white focus:text-light-pink focus:outline-none flex text-white justify-center items-center footer-arrow h-10 -top-5 w-10"
+            className="absolute bg-light-pink border-2 border-light-pink hover:bg-white hover:text-light-pink focus:bg-white focus:text-light-pink focus:outline-none flex text-white justify-center items-center footer-arrow h-10 -top-24 w-10"
             href="#top-of-page"
           >
             <svg className="fill-current" height="20" width="20">
@@ -291,38 +295,190 @@ export default function Home() {
             </svg>
             <span className="hidden">Return to the top of the page</span>
           </a>
-
-          <div className="flex h-full gap-x-6 justify-center">
+          <div
+            className="bg-white md:flex max-w-5xl -mt-40 mx-auto px-12 md:px-16 lg:px-20 py-20 shadow-lg"
+            id="contact"
+          >
+            <div className="flex flex-col md:pr-12 md:w-1/2">
+              <h2 className="border-b border-light-pink font-light font-sans inline-block text-xl tracking-wide uppercase w-max">
+                Contact Us
+              </h2>
+              <p className="font-serif md:max-w-xs my-6 leading-relaxed text-sm">
+                Please complete the request form and a member of our team will
+                contact you by phone within 24 hours to confirm your booking.
+              </p>
+              <a
+                className="focus:outline-none text-sm"
+                href="mailto:jianminmassagetherapy@gmail.com"
+              >
+                Email:
+                <span className="ml-2 underline">
+                  jianminmassagetherapy@gmail.com
+                </span>
+              </a>
+              <a
+                className="focus:outline-none py-4 text-sm"
+                href="tel:6172089288"
+              >
+                Phone:
+                <span className="ml-2 underline">(617) 208-9288</span>
+              </a>
+              <div className="gap-x-2 flex flex-row items-center mt-2">
+                <a className="contact-logo" href="">
+                  <svg height="28" width="28">
+                    <use xlinkHref="#icon-trip-advisor" />
+                  </svg>
+                </a>
+                <a
+                  className="contact-logo"
+                  href="https://www.yelp.com/biz/jian-min-massage-therapy-boston-2"
+                >
+                  <svg height="28" width="28">
+                    <use xlinkHref="#icon-yelp" />
+                  </svg>
+                </a>
+                <a className="contact-logo" href="">
+                  <svg height="20" width="20">
+                    <use xlinkHref="#icon-google" />
+                  </svg>
+                </a>
+              </div>
+              <div className="mt-10 mb-10 md:mb-0">
+                <h3 className="border-b border-light-pink inline-block font-sans font-light tracking-wide uppercase">
+                  Hours
+                </h3>
+                <p className="font-serif my-2 text-sm">
+                  Open Daily 9:30 am - 9:00 pm
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto">
+              <form
+                className="font-sans text-sm"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+              >
+                <p className="pb-4">
+                  <label className="flex flex-col">
+                    <span>Name / 名 * </span>
+                    <input
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                      type="text"
+                      name="name"
+                    />
+                  </label>
+                </p>
+                <div className="flex gap-x-4">
+                  <label className="flex flex-col w-1/2">
+                    <span>Email / 电子邮件 * </span>
+                    <input
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                      type="email"
+                      name="email"
+                    />
+                  </label>
+                  <label className="flex flex-col w-1/2">
+                    <span>Phone / 电话 * </span>
+                    <input
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                      type="tel"
+                      name="phone"
+                    />
+                  </label>
+                </div>
+                <p className="py-4">
+                  <label>
+                    Treatment / 按摩 :
+                    <select
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
+                      name="treatment[]"
+                    >
+                      <option value="select" selected>
+                        Choose an option
+                      </option>
+                      <option value="Deep Tissue Massage">
+                        Deep Tissue - 大力按摩
+                      </option>
+                      <option value="Relaxation Massage">
+                        Relaxation Massage - 放松按摩
+                      </option>
+                      <option value="Hot Stone Massage">
+                        Hot Stone Massage - 热石
+                      </option>
+                      <option value="Foot Massage">
+                        Foot Massage - 脚底按摩
+                      </option>
+                      <option value="Chinese Cupping">
+                        Chinese Cupping - 拔罐
+                      </option>
+                      <option value="Lymphatic Detox">
+                        Lymphatic Detox - 全身淋巴排毒
+                      </option>
+                    </select>
+                  </label>
+                </p>
+                <p className="pb-4">
+                  <label>
+                    Duration / 龄 :
+                    <select
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
+                      name="treatment[]"
+                    >
+                      <option value="select" selected>
+                        Choose an option
+                      </option>
+                      <option value="30 Minutes">30 Minutes</option>
+                      <option value="60 Minutes">60 Minutes</option>
+                    </select>
+                  </label>
+                </p>
+                <p className="pb-4">
+                  <label>
+                    Massage Therapist / 按摩治疗师 :
+                    <select
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
+                      name="treatment[]"
+                    >
+                      <option value="select" selected>
+                        No preference
+                      </option>
+                      <option value="Ah Heung">Ah Heung</option>
+                      <option value="Ah Lin">Ah Lin</option>
+                    </select>
+                  </label>
+                </p>
+                <div className="flex gap-x-4 pb-4">
+                  <label className="flex flex-col w-1/2">
+                    <span>Date / 日 * </span>
+                    <input
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                      type="date"
+                      name="date"
+                    />
+                  </label>
+                  <label className="flex flex-col w-1/2">
+                    <span>Time / 时 * </span>
+                    <input
+                      className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                      type="time"
+                      name="time"
+                    />
+                  </label>
+                </div>
+                <button
+                  className="bg-light-pink hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none tracking-wide my-4 py-3 px-6 uppercase shadow-lg"
+                  type="submit"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+          <div className="flex flex-col mt-6 items-center">
             <svg height="40" width="40">
               <use xlinkHref="#icon-lotus" />
             </svg>
-            <div className="hidden md:flex md:flex-col md:font-light md:font-sans md:uppercase md:w-42">
-              <div className="border-b border-light-pink lg:text-xl tracking-widest">
-                <span className="pl-1">Jian Min</span>
-              </div>
-              <div className="mt-1 text-xs tracking-wider">Massage Therapy</div>
-            </div>
-          </div>
-          <div className="flex flex-col py-10 md:py-0 text-center">
-            <h3 className="font-light font-sans inline-block tracking-wide uppercase">
-              Contact Info
-            </h3>
-            <span className="border-b border-light-pink flex items-center mx-auto pb-1 w-32"></span>
-            <p className="text-sm py-2">Phone: (617) 208-9288</p>
-            <a
-              className="hover:underline focus:underline focus:outline-none text-sm"
-              href="mailto:jianminmassagetherapy@gmail.com"
-            >
-              jianminmassagetherapy@gmail.com
-            </a>
-          </div>
-          <div className="flex flex-col text-center">
-            <h3 className="font-light font-sans inline-block tracking-wide uppercase">
-              Hours
-            </h3>
-            <span className="border-b border-light-pink flex items-center mx-auto pb-1 w-16"></span>
-            <p className="text-sm py-2">Open Daily</p>
-            <p className="text-sm">9:30 am to 9:00 pm</p>
           </div>
         </div>
       </main>

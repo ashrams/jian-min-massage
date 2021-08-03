@@ -71,3 +71,16 @@ header {
 .footer-arrow {
   left: calc(50% - 1.25rem);
 }
+
+.contact-logo:focus {
+  outline: none;
+}
+
+.contact-logo svg {
+  fill: #f7a394;
+}
+
+.contact-logo:hover svg,
+.contact-logo:focus svg {
+  fill: #91d4cc;
+}
