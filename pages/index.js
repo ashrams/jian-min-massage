@@ -354,11 +354,20 @@ export default function Home() {
             </div>
             <div className="mx-auto">
               <form
+                action="/contact-thanks"
                 className="font-sans text-sm"
-                name="contact"
+                name="contactForm"
                 method="POST"
                 data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                id="contact-form"
               >
+                <p className="hidden">
+                  <label>
+                    Don't fill this out if you're human:{" "}
+                    <input name="bot-field" />
+                  </label>
+                </p>
                 <p className="pb-4">
                   <label className="flex flex-col">
                     <span>Name / 名 * </span>
@@ -466,6 +475,7 @@ export default function Home() {
                     />
                   </label>
                 </div>
+                <input type="hidden" name="form-name" value="contactForm" />
                 <button
                   className="bg-light-pink hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none tracking-wide my-4 py-3 px-6 uppercase shadow-lg"
                   type="submit"
