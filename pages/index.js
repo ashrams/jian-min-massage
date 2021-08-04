@@ -268,6 +268,7 @@ export default function Home() {
             <div className="md:order-1 md:w-3/5 lg:w-3/5">
               <img
                 alt="Map of location"
+                className="w-full"
                 height="325"
                 width="614"
                 src="img/map.jpg"
