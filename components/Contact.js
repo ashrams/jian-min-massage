@@ -85,7 +85,7 @@ export default function Contact() {
               <input
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
                 type="email"
-                name="email"
+                name="Email / 电子邮件"
               />
             </label>
             <label className="flex flex-col w-1/2">
@@ -93,7 +93,7 @@ export default function Contact() {
               <input
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
                 type="tel"
-                name="phone"
+                name="Phone / 电话"
               />
             </label>
           </div>
@@ -102,23 +102,27 @@ export default function Contact() {
               Treatment / 按摩 :
               <select
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
-                name="treatment[]"
+                name="Treatment / 按摩[]"
               >
                 <option value="select" selected>
                   Choose an option
                 </option>
-                <option value="Deep Tissue Massage">
+                <option value="Deep Tissue Massage - 大力按摩">
                   Deep Tissue - 大力按摩
                 </option>
-                <option value="Relaxation Massage">
+                <option value="Relaxation Massage - 放松按摩">
                   Relaxation Massage - 放松按摩
                 </option>
-                <option value="Hot Stone Massage">
+                <option value="Hot Stone Massage - 热石">
                   Hot Stone Massage - 热石
                 </option>
-                <option value="Foot Massage">Foot Massage - 脚底按摩</option>
-                <option value="Chinese Cupping">Chinese Cupping - 拔罐</option>
-                <option value="Lymphatic Detox">
+                <option value="Foot Massage - 脚底按摩">
+                  Foot Massage - 脚底按摩
+                </option>
+                <option value="Chinese Cupping - 拔罐">
+                  Chinese Cupping - 拔罐
+                </option>
+                <option value="Lymphatic Detox - 全身淋巴排毒">
                   Lymphatic Detox - 全身淋巴排毒
                 </option>
               </select>
@@ -161,6 +165,7 @@ export default function Contact() {
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
                 type="date"
                 name="date"
+                required
               />
             </label>
             <label className="flex flex-col w-1/2">
@@ -169,6 +174,7 @@ export default function Contact() {
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
                 type="time"
                 name="time"
+                required
               />
             </label>
           </div>
