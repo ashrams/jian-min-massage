@@ -17,10 +17,8 @@ export default function Contact() {
           className="flex flex-wrap md:block md:focus:outline-none text-sm"
           href="mailto:jianminmassagetherapy@gmail.com"
         >
-          Email:
-          <span className="md:ml-2 underline">
-            jianminmassagetherapy@gmail.com
-          </span>
+          <span className="mr-2">Email:</span>
+          <span className="underline">jianminmassagetherapy@gmail.com</span>
         </a>
         <a className="focus:outline-none py-4 text-sm" href="tel:6172089288">
           Phone:
@@ -164,8 +162,8 @@ export default function Contact() {
                 <option value="select" selected>
                   No preference
                 </option>
-                <option value="Heung">Heung</option>
-                <option value="Lin">Lin</option>
+                <option value="Heung">Rita</option>
+                <option value="Lin">Annie</option>
               </select>
             </label>
           </p>
