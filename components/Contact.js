@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div
-      className="bg-white md:flex max-w-5xl -mt-40 mx-auto px-12 md:px-16 lg:px-20 py-20 shadow-lg"
+      className="bg-white md:flex max-w-5xl -mt-40 mx-auto overflow-hidden px-10 md:px-16 lg:px-20 py-20 shadow-lg"
       id="contact"
     >
       <div className="flex flex-col md:pr-12 md:w-1/2">
@@ -14,11 +14,11 @@ export default function Contact() {
           availability.
         </p>
         <a
-          className="focus:outline-none text-sm"
+          className="flex flex-wrap md:block md:focus:outline-none text-sm"
           href="mailto:jianminmassagetherapy@gmail.com"
         >
           Email:
-          <span className="ml-2 underline">
+          <span className="md:ml-2 underline">
             jianminmassagetherapy@gmail.com
           </span>
         </a>
@@ -26,7 +26,7 @@ export default function Contact() {
           Phone:
           <span className="ml-2 underline">(617) 208-9288</span>
         </a>
-        <div className="gap-x-2 flex flex-row items-center mt-2">
+        <div className="gap-x-4 flex flex-row items-center mt-2">
           {/* <a className="contact-logo" href="">
             <svg height="28" width="28">
               <use xlinkHref="#icon-trip-advisor" />
@@ -87,19 +87,19 @@ export default function Contact() {
               />
             </label>
           </p>
-          <div className="flex gap-x-4">
-            <label className="flex flex-col w-1/2">
+          <div className="md:flex md:gap-x-4">
+            <label className="md:flex md:flex-col md:w-1/2">
               <span>Email / 电子邮件 * </span>
               <input
-                className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                className="bg-light-gray border border-gray-200 mb-4 md:mb-0 mt-1 py-1 px-2 w-full"
                 type="email"
                 name="Email / 电子邮件"
               />
             </label>
-            <label className="flex flex-col w-1/2">
+            <label className="md:flex md:flex-col md:w-1/2">
               <span>Phone / 电话 * </span>
               <input
-                className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
                 type="tel"
                 name="Phone / 电话"
               />
@@ -169,17 +169,17 @@ export default function Contact() {
               </select>
             </label>
           </p>
-          <div className="flex gap-x-4 pb-4">
-            <label className="flex flex-col w-1/2">
+          <div className="md:flex md:gap-x-4 pb-4">
+            <label className="md:flex md:flex-col md:w-1/2">
               <span>Date / 日 * </span>
               <input
-                className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
+                className="bg-light-gray border border-gray-200 mb-4 md:mb-0 mt-1 py-1 px-2 w-full"
                 type="date"
                 name="Date / 日"
                 required
               />
             </label>
-            <label className="flex flex-col w-1/2">
+            <label className="md:flex md:flex-col md:w-1/2">
               <span>Preferred Time / 时 * </span>
               <select
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
