@@ -153,8 +153,8 @@ export default function Contact() {
                 <option value="select" selected>
                   No preference
                 </option>
-                <option value="Ah Heung">Ah Heung</option>
-                <option value="Ah Lin">Ah Lin</option>
+                <option value="Heung">Heung</option>
+                <option value="Lin">Lin</option>
               </select>
             </label>
           </p>
@@ -164,18 +164,44 @@ export default function Contact() {
               <input
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
                 type="date"
-                name="date"
+                name="Date / 日"
                 required
               />
             </label>
             <label className="flex flex-col w-1/2">
-              <span>Time / 时 * </span>
-              <input
-                className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
-                type="time"
-                name="time"
-                required
-              />
+              <span>Preferred Time / 时 * </span>
+              <select
+                className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
+                name="Preferred Time / 时"
+              >
+                <option value="select" selected>
+                  Choose an option
+                </option>
+                <option value="9:00 am">9:00 am</option>
+                <option value="9:30 am">9:30 am</option>
+                <option value="10:00 am">10:00 am</option>
+                <option value="10:30 am">10:30 am</option>
+                <option value="11:00 am">11:00 am</option>
+                <option value="11:30 am">11:30 am</option>
+                <option value="12:00 pm">12:00 pm</option>
+                <option value="12:30 pm">12:30 pm</option>
+                <option value="1:00 pm">1:00 pm</option>
+                <option value="1:30 pm">1:30 pm</option>
+                <option value="2:00 pm">2:00 pm</option>
+                <option value="2:30 pm">2:30 pm</option>
+                <option value="3:00 pm">3:00 pm</option>
+                <option value="3:30 pm">3:30 pm</option>
+                <option value="4:00 pm">4:00 pm</option>
+                <option value="4:30 pm">4:30 pm</option>
+                <option value="5:00 pm">5:00 pm</option>
+                <option value="5:30 pm">5:30 pm</option>
+                <option value="6:00 pm">6:00 pm</option>
+                <option value="6:30 pm">6:30 pm</option>
+                <option value="7:00 pm">7:00 pm</option>
+                <option value="7:30 pm">7:30 pm</option>
+                <option value="8:00 pm">8:00 pm</option>
+                <option value="8:30 pm">8:30 pm</option>
+              </select>
             </label>
           </div>
           <input type="hidden" name="form-name" value="contactForm" />

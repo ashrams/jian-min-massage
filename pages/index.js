@@ -300,7 +300,7 @@ export default function Home() {
           <Contact />
           <div className="flex flex-col mt-6 items-center">
             <svg height="40" width="40">
-              <use xlinkHref="#icon-lotus" />
+              <use xlinkHref="#icon-yin-yang" />
             </svg>
           </div>
         </div>
