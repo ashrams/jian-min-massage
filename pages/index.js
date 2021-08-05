@@ -299,7 +299,7 @@ export default function Home() {
           </a>
           <Contact />
           <div className="flex flex-col mt-6 items-center">
-            <svg height="40" width="40">
+            <svg height="30" width="30">
               <use xlinkHref="#icon-yin-yang" />
             </svg>
           </div>

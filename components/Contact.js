@@ -9,8 +9,9 @@ export default function Contact() {
           Contact Us
         </h2>
         <p className="font-serif md:max-w-xs my-6 leading-relaxed text-sm">
-          Please complete the request form and a member of our team will contact
-          you by phone within 24 hours to confirm your booking.
+          Please complete the request form for your preferred massage service. A
+          member of our team will contact you within 24 hours to confirm
+          availability.
         </p>
         <a
           className="focus:outline-none text-sm"
@@ -26,20 +27,27 @@ export default function Contact() {
           <span className="ml-2 underline">(617) 208-9288</span>
         </a>
         <div className="gap-x-2 flex flex-row items-center mt-2">
-          <a className="contact-logo" href="">
+          {/* <a className="contact-logo" href="">
             <svg height="28" width="28">
               <use xlinkHref="#icon-trip-advisor" />
             </svg>
-          </a>
+          </a> */}
           <a
             className="contact-logo"
             href="https://www.yelp.com/biz/jian-min-massage-therapy-boston-2"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <svg height="28" width="28">
               <use xlinkHref="#icon-yelp" />
             </svg>
           </a>
-          <a className="contact-logo" href="">
+          <a
+            className="contact-logo"
+            href="https://goo.gl/maps/jPSBxAHq5HnGLGAQ9"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <svg height="20" width="20">
               <use xlinkHref="#icon-google" />
             </svg>
@@ -140,6 +148,9 @@ export default function Contact() {
                 </option>
                 <option value="30 Minutes">30 Minutes</option>
                 <option value="60 Minutes">60 Minutes</option>
+                <option value="Custom">
+                  Custom - specify in message below
+                </option>
               </select>
             </label>
           </p>
@@ -204,6 +215,14 @@ export default function Contact() {
               </select>
             </label>
           </div>
+          <label>
+            <span>Message / 信息</span>
+            <textarea
+              className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
+              name="Message / 信息"
+              rows="2"
+            ></textarea>
+          </label>
           <input type="hidden" name="form-name" value="contactForm" />
           <button
             className="bg-light-pink hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none tracking-wide my-4 py-3 px-6 uppercase shadow-lg"
