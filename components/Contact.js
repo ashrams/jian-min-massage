@@ -31,6 +31,7 @@ export default function Contact() {
             </svg>
           </a> */}
           <a
+            aria-label="Link to Yelp"
             className="contact-logo"
             href="https://www.yelp.com/biz/jian-min-massage-therapy-boston-2"
             rel="noopener noreferrer"
@@ -41,6 +42,7 @@ export default function Contact() {
             </svg>
           </a>
           <a
+            aria-label="Link to Google Maps"
             className="contact-logo"
             href="https://goo.gl/maps/jPSBxAHq5HnGLGAQ9"
             rel="noopener noreferrer"

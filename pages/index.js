@@ -295,7 +295,7 @@ export default function Home() {
             <svg className="fill-current" height="20" width="20">
               <use xlinkHref="#icon-chevron-up" />
             </svg>
-            <span className="hidden">Return to the top of the page</span>
+            <span className="sr-only">Return to the top of the page</span>
           </a>
           <Contact />
           <div className="flex flex-col mt-6 items-center">
