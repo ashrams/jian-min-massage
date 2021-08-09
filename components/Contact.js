@@ -79,21 +79,21 @@ export default function Contact() {
           </p>
           <p className="pb-4">
             <label className="flex flex-col">
-              <span>Name / 名 * </span>
+              <span>Name / 姓名 * </span>
               <input
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2"
                 type="text"
-                name="name / 名"
+                name="Name / 姓名"
               />
             </label>
           </p>
           <div className="md:flex md:gap-x-4">
             <label className="md:flex md:flex-col md:w-1/2">
-              <span>Email / 电子邮件 * </span>
+              <span>Email / 电邮 * </span>
               <input
                 className="bg-light-gray border border-gray-200 mb-4 md:mb-0 mt-1 py-1 px-2 w-full"
                 type="email"
-                name="Email / 电子邮件"
+                name="Email / 电邮"
               />
             </label>
             <label className="md:flex md:flex-col md:w-1/2">
@@ -107,10 +107,10 @@ export default function Contact() {
           </div>
           <p className="py-4">
             <label>
-              Treatment / 按摩 :
+              Treatment / 療程 :
               <select
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
-                name="Treatment / 按摩[]"
+                name="Treatment / 療程[]"
               >
                 <option value="select" selected>
                   Choose an option
@@ -138,10 +138,10 @@ export default function Contact() {
           </p>
           <p className="pb-4">
             <label>
-              Duration / 龄 :
+              Duration / 鈡數 :
               <select
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
-                name="Duration / 龄"
+                name="Duration / 鈡數"
               >
                 <option value="select" selected>
                   Choose an option
@@ -154,36 +154,21 @@ export default function Contact() {
               </select>
             </label>
           </p>
-          <p className="pb-4">
-            <label>
-              Massage Therapist / 按摩治疗师 :
-              <select
-                className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
-                name="Massage Therapist / 按摩治疗师"
-              >
-                <option value="select" selected>
-                  No preference
-                </option>
-                <option value="Heung">Rita</option>
-                <option value="Lin">Annie</option>
-              </select>
-            </label>
-          </p>
           <div className="md:flex md:gap-x-4 pb-4">
             <label className="md:flex md:flex-col md:w-1/2">
-              <span>Date / 日 * </span>
+              <span>Date / 曰期 * </span>
               <input
                 className="bg-light-gray border border-gray-200 mb-4 md:mb-0 mt-1 py-1 px-2 w-full"
                 type="date"
-                name="Date / 日"
+                name="Date / 曰期"
                 required
               />
             </label>
             <label className="md:flex md:flex-col md:w-1/2">
-              <span>Preferred Time / 时 * </span>
+              <span>Preferred Time / 時間 * </span>
               <select
                 className="bg-light-gray border border-gray-200 mt-1 py-1 px-2 w-full"
-                name="Preferred Time / 时"
+                name="Preferred Time / 時間"
               >
                 <option value="select" selected>
                   Choose an option

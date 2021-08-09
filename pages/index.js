@@ -274,6 +274,33 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className="my-16 md:my-24 max-w-5xl mx-auto px-6 text-center">
+          <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
+            Our Team
+          </h2>
+          <div className="flex flex-col md:flex-row mt-8 lg:mt-12 justify-center">
+            <div className="flex flex-col items-center justify-center md:w-2/5">
+              <img
+                className="rounded-full"
+                height="175"
+                width="175"
+                src="img/heung.jpg"
+              />
+              <h3 className="font-light font-sans mt-3 text-xl uppercase">
+                Heung
+              </h3>
+              <p className="font-serif italic text-sm">Massage Therapist</p>
+            </div>
+            <p className="font-serif leading-relaxed md:leading-loose mt-6 md:mt-0 lg:leading-loose md:text-left text-sm lg:text-base md:w-3/5">
+              Owner and operator of Jian Min Massage, Heung, has over 20 years
+              of experience in massage therapy. She received her training at the
+              Guang Jie Medical Centre. She is fluent in Cantonese, and can
+              speak Mandarin and some English. While she is available for all
+              massage types, Heung has a specific focus on pain treatment,
+              traditional cupping and scraping.
+            </p>
+          </div>
+        </div>
         <div className="bg-light-gray pb-32 pt-16 md:pb-48 md:pt-24 text-center">
           <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
             Location
