@@ -286,17 +286,17 @@ export default function Home() {
                 src="img/heung.jpg"
               />
               <h3 className="font-light font-sans mt-3 text-xl uppercase">
-                Heung
+                Han Xiang Tong
               </h3>
               <p className="font-serif italic text-sm">Massage Therapist</p>
             </div>
             <p className="font-serif leading-relaxed md:leading-loose mt-6 md:mt-0 lg:leading-loose md:text-left text-sm lg:text-base md:w-3/5">
-              Owner and operator of Jian Min Massage, Heung, has over 20 years
-              of experience in massage therapy. She received her training at the
-              Guang Jie Medical Centre. She is fluent in Cantonese, and can
-              speak Mandarin and some English. While she is available for all
-              massage types, Heung has a specific focus on pain treatment,
-              traditional cupping and scraping.
+              Owner and operator of Jian Min Massage, Han Xiang Tong, has over
+              20 years of experience in massage therapy. She received her
+              training at the Guang Jie Medical Centre. She is fluent in
+              Cantonese, and can speak Mandarin and limited English. While she
+              is available for all massage types, she has a specific focus on
+              pain treatment, traditional cupping and scraping.
             </p>
           </div>
         </div>
