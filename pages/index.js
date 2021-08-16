@@ -20,7 +20,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.jian-min-massage.netlify.app/social.jpg"
+          content="https://www.jianminmassage.com/social.jpg"
           key="ogimage"
         />
         <meta
@@ -33,6 +33,20 @@ export default function Home() {
           property="og:description"
           content="Chinese massage therapy in Boston, MA."
           key="ogdesc"
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-V5JDY18901"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'G-V5JDY18901');
+	      `,
+          }}
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -64,9 +78,11 @@ export default function Home() {
               cupping therapy to treat injuries, muscle soreness or to promote
               health and wellness.
             </p>
-            <button className="bg-light-pink font-light h-14 hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none font-sans mx-auto shadow-lg tracking-wide uppercase w-44">
-              Contact Us
-            </button>
+            <a className="focus:outline-none" href="tel:6172089288">
+              <button className="hover:bg-extra-light-pink focus:bg-extra-light-pink focus:outline-none bg-light-pink h-14 font-sans mx-auto shadow-lg tracking-wide uppercase w-44">
+                Contact Us
+              </button>
+            </a>
           </div>
           <div className="bg-gray-700 bg-opacity-20 bottom-0 md:absolute md:h-36 md:mt-0 md:py-0 mt-12 py-6 w-full">
             <div className="h-full items-center justify-between max-w-5xl md:flex mx-auto px-6">
@@ -92,9 +108,12 @@ export default function Home() {
                   </div>
                   Get in Touch
                 </div>
-                <div className="font-serif text-sm lg:text-base">
+                <a
+                  className="focus:outline-none focus:bg-gray-200 focus:bg-opacity-40 font-serif text-sm lg:text-base"
+                  href="tel:6172089288"
+                >
                   (617) 208-9288
-                </div>
+                </a>
               </div>
               <div className="flex flex-col items-center md:my-0 my-8">
                 <div className="relative border-b border-gray-800 pb-1 mb-1 font-light font-sans inline-block text-lg tracking-wide uppercase">
@@ -146,7 +165,7 @@ export default function Home() {
                 <use xlinkHref="#icon-lotus" />
               </svg>
               <h3 className="font-light font-sans mt-3 text-xl uppercase">
-                Relaxing Massage
+                Relaxation Massage
               </h3>
               <span className="border-b border-light-pink my-3 w-16"></span>
               <p className="font-serif mb-3 px-8 text-sm">
@@ -254,7 +273,34 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="bg-light-gray py-16 md:py-24 text-center">
+        <div className="my-16 md:my-24 max-w-5xl mx-auto px-6 text-center">
+          <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
+            Our Team
+          </h2>
+          <div className="flex flex-col md:flex-row mt-8 lg:mt-12 justify-center">
+            <div className="flex flex-col items-center justify-center md:w-2/5">
+              <img
+                className="rounded-full"
+                height="175"
+                width="175"
+                src="img/heung.jpg"
+              />
+              <h3 className="font-light font-sans mt-3 text-xl uppercase">
+                Han Xiang Tong
+              </h3>
+              <p className="font-serif italic text-sm">Massage Therapist</p>
+            </div>
+            <p className="font-serif leading-relaxed md:leading-loose mt-6 md:mt-0 lg:leading-loose md:text-left text-sm lg:text-base md:w-3/5">
+              Owner and operator of Jian Min Massage, Han Xiang Tong, has over
+              20 years of experience in massage therapy. She received her
+              training at the Guang Jie Medical Centre. She is fluent in
+              Cantonese, and can speak Mandarin and limited English. While she
+              is available for all massage types, she has a specific focus on
+              pain treatment, traditional cupping and scraping.
+            </p>
+          </div>
+        </div>
+        <div className="bg-light-gray pb-32 pt-16 md:pb-48 md:pt-24 text-center">
           <h2 className="border-b border-light-pink font-light font-sans inline-block text-2xl tracking-wide uppercase">
             Location
           </h2>
@@ -262,6 +308,7 @@ export default function Home() {
             <div className="md:order-1 md:w-3/5 lg:w-3/5">
               <img
                 alt="Map of location"
+                className="w-full"
                 height="325"
                 width="614"
                 src="img/map.jpg"
@@ -280,7 +327,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="max-w-5xl mx-auto md:grid md:grid-cols-3 py-20 relative">
           <a
             className="absolute bg-light-pink border-2 border-light-pink hover:bg-white hover:text-light-pink focus:bg-white focus:text-light-pink focus:outline-none flex text-white justify-center items-center footer-arrow h-10 -top-5 w-10"
@@ -294,7 +340,7 @@ export default function Home() {
 
           <div className="flex h-full gap-x-6 justify-center">
             <svg height="40" width="40">
-              <use xlinkHref="#icon-lotus" />
+              <use xlinkHref="#icon-yin-yang" />
             </svg>
             <div className="hidden md:flex md:flex-col md:font-light md:font-sans md:uppercase md:w-42">
               <div className="border-b border-light-pink lg:text-xl tracking-widest">
