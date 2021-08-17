@@ -280,6 +280,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row mt-8 lg:mt-12 justify-center">
             <div className="flex flex-col items-center justify-center md:w-2/5">
               <img
+                alt="Photo of Han Xiang Tong"
                 className="rounded-full"
                 height="175"
                 width="175"
