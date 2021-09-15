@@ -124,9 +124,13 @@ export default function Home() {
                   </div>
                   Address
                 </div>
-                <div className="font-serif text-sm lg:text-base">
+                <a
+                  className="focus:outline-none focus:bg-gray-200 focus:bg-opacity-40 font-serif text-sm lg:text-base"
+                  href="https://www.google.com/maps/search/?api=1&query=Jian+Min+Massage"
+                  target="_blank"
+                >
                   12A Tyler Street, Boston, MA 02111
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -317,10 +321,13 @@ export default function Home() {
             </div>
             <div className="leading-relaxed md:py-0 md:w-2/5 lg:w-2/5 px-10 py-10">
               <p className="font-bold">We're located at</p>
-              <p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Jian+Min+Massage"
+                target="_blank"
+              >
                 12A Tyler Street
                 <br /> Boston, MA 02111
-              </p>
+              </a>
               <p className="font-serif italic pt-6 text-sm">
                 Our location in the heart of Chinatown is convenient to transit,
                 shops, and restaurants.
@@ -355,7 +362,12 @@ export default function Home() {
               Contact Info
             </h3>
             <span className="border-b border-light-pink flex items-center mx-auto pb-1 w-32"></span>
-            <p className="text-sm py-2">Phone: (617) 208-9288</p>
+            <a
+              className="hover:underline focus:underline focus:outline-none text-sm py-2"
+              href="tel:6172089288"
+            >
+              Phone: (617) 208-9288
+            </a>
             <a
               className="hover:underline focus:underline focus:outline-none text-sm"
               href="mailto:jianminmassagetherapy@gmail.com"
