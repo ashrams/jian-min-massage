@@ -161,7 +161,7 @@ export default function Home() {
                 $50 for 30 minutes
               </span>
               <span className="font-light font-sans text-sm">
-                $70 for 60 minutes
+                $80 for 60 minutes
               </span>
             </li>
             <li className="md:border-b lg:border-r md:border-gray-100 flex flex-col h-80 items-center">
@@ -180,7 +180,7 @@ export default function Home() {
                 $40 for 30 minutes
               </span>
               <span className="font-light font-sans text-sm">
-                $60 for 60 minutes
+                $70 for 60 minutes
               </span>
             </li>
             <li className="md:border-b md:border-r lg:border-r-0 md:border-gray-100 flex flex-col h-80 items-center md:pt-10 lg:pt-0">
